@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>StripePulishableKey</key>
+    <string>$(STRIPE_PUBLISHABLE_KEY)</string>
+	<key>ApiBaseURL</key>
+	<string>$(API_BASE_URL)</string>
+	<key>ApiKey</key>
+	<string>$(API_KEY)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInMedia</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>192.168.1.8</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+			</dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+			<key>127.0.0.1</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Ứng dụng cần vị trí của bạn để hiển thị bản đồ và đường đi.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Ứng dụng cần truy cập camera để chụp ảnh sản phẩm và tìm kiếm bằng hình ảnh.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Ứng dụng cần truy cập thư viện ảnh để chọn ảnh sản phẩm và tìm kiếm bằng hình ảnh.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Ứng dụng cần quyền lưu ảnh vào thư viện ảnh của bạn.</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Ứng dụng cần quyền truy cập Face ID để xác thực thanh toán.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Ứng dụng cần truy cập mạng local để kết nối với server phát triển.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_http._tcp</string>
+		<string>_https._tcp</string>
+	</array>
+	<key>StripePulishableKey</key>
+	<string>$(STRIPE_PUBLISHABLE_KEY)</string>
+</dict>
+</plist>

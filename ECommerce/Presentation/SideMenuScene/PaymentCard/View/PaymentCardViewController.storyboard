@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Payment Card View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="PaymentCardViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="PaymentCardViewController" customModule="ECommerce" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Tbl-Vw-001">
+                                <rect key="frame" x="0.0" y="139" width="393" height="545"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btn-Add-Card" customClass="EcoButton" customModule="ECommerce" customModuleProvider="target">
+                                <rect key="frame" x="16" y="668" width="361" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Btn-Height"/>
+                                </constraints>
+                                <state key="normal" title="Add new card"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="normalBackgroundColor" value="tokenRainbowBlueEnd"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="normalTitleColor" value="tokenWhite"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Btn-Add-Card" secondAttribute="bottom" constant="100" id="Btn-Bottom"/>
+                            <constraint firstItem="Btn-Add-Card" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="Btn-Leading"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Btn-Add-Card" secondAttribute="trailing" constant="16" id="Btn-Trailing"/>
+                            <constraint firstItem="Tbl-Vw-001" firstAttribute="bottom" secondItem="Btn-Add-Card" secondAttribute="top" constant="16" id="Tbl-Bottom"/>
+                            <constraint firstItem="Tbl-Vw-001" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Tbl-Leading"/>
+                            <constraint firstItem="Tbl-Vw-001" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="80" id="Tbl-Top"/>
+                            <constraint firstItem="Tbl-Vw-001" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Tbl-Trailing"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addCardButton" destination="Btn-Add-Card" id="Btn-Outlet"/>
+                        <outlet property="tableView" destination="Tbl-Vw-001" id="Tbl-Outlet"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

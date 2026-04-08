@@ -1,0 +1,121 @@
+/* 
+  CommonViews.strings
+  CommonViews
+
+  Created by Natariannn on 11/12/20.
+  Copyright © 2020 ViettelPay App Team. All rights reserved.
+*/
+"balance_not_enough" = "Không đủ số dư";
+"bank_with_name" = "Ngân hàng %@";
+"bankplus" = "Bankplus %@";
+"bs_title_voucher" = "Chọn ưu đãi";
+"bs_title_sources" = "Chọn nguồn tiền";
+"bs_title_telco_account" = "Chọn tài khoản nhận";
+
+"card_and_name" = "Thẻ ATM %@(%@)";
+"mb_bank_with_number" = "Thẻ ATM MB %@";
+
+"discount" = "Chiết khấu";
+"discount_campaign" = "Ưu đãi giảm giá";
+"discount_amount" = "Ưu đãi giảm giá";
+"description_voucher" = "Bạn có %d mã ưu đãi";
+"debit_telco" = "Nợ cước";
+"viettel_loyalty" = "Dùng điểm Viettel++";
+
+"free" = "Miễn phí";
+"go_home" = "Về trang chủ";
+
+"money_title" = "Số tiền";
+"payment_money_title" = "Số tiền thanh toán";
+"total_money_title" = "Tổng tiền thanh toán";
+
+"confirm" = "Xác nhận";
+"share" = "Chia sẻ";
+"share_here" = "Chia sẻ màn hình ở đây nhé";
+
+"confirm_header_account" = "Từ tài khoản";
+"confirm_header_account_list" = "Từ nguồn tiền";
+"confirm_header_bill" = "Thông tin giao dịch";
+"confirm_header_voucher" = "Mã ưu đãi";
+"confirm_header_voucher_loan" = "Ưu đãi";
+"confirm_header_pay" = "Số tiền giao dịch";
+"confirm_header_pay2" = "Chi tiết giao dịch";
+
+"confirm_button_payment" = "Xác thực giao dịch";
+"confirm_title_payment" = "Xác nhận thanh toán";
+"confirm_title_recharge" = "Xác nhận nạp tiền";
+"confirm_title_transfer" = "Xác nhận chuyển tiền";
+"confirm_title_withdrawal" = "Xác nhận giao dịch";
+"confirm_title_fee_payment" = "Xác nhận đóng phí";
+
+"password_bankplus" = "Bạn vui lòng nhập mật khẩu Bankplus của ngân hàng %@";
+
+"payment_continue" = "Tiếp tục thanh toán";
+"payment_header" = "THÔNG TIN THANH TOÁN";
+"payment_success" = "Thanh toán thành công";
+"processing_notice" = "Hệ thống đang xử lý\nVui lòng đợi trong giây lát";
+"donate_continue" = "Tiếp tục ủng hộ";
+
+"recharge_continue" = "Tiếp tục nạp tiền";
+"recharge_header" = "THÔNG TIN NẠP TIỀN";
+"recharge_success" = "Nạp tiền thành công";
+"recharge_other_over_budget" = "Số tiền bạn nạp vượt hạn mức chi tiêu tài khoản Tiền di động của %@. Bạn vẫn muốn tiếp tục nạp tiền chứ?";
+
+"topup_continue" = "Tiếp tục nạp điện thoại";
+"topup_header" = "THÔNG TIN NẠP ĐIỆN THOẠI";
+"topup_success" = "Nạp điện thoại thành công";
+
+"select_voucher" = "Chọn mã";
+
+"transaction_fee" = "Phí giao dịch";
+"transaction_fee_not_count" = "Phí nguồn tiền";
+"transfer_continue" = "Tiếp tục chuyển tiền";
+"transfer_header" = "THÔNG TIN CHUYỂN TIỀN";
+"transfer_success" = "Chuyển tiền thành công";
+"bundle_fee" = "Phí bảo hiểm";
+
+"unselect_voucher" = "Chọn lại";
+"share_content" = "%@ (%@) gửi cho bạn một hình ảnh từ Viettel Money. Vui lòng kiểm tra hình ảnh. Tải ứng dụng Viettel Money tại https://viettelmoney.vn";
+"result_share_coachmark_content" = "Chia sẻ màn hình ở đây nhé";
+"recomend" = "Khuyên dùng";
+"voucher_used" = "Đã áp dụng mã ưu đãi %@";
+
+"content_default" = "Chuyen tien tu Viettel Money";
+"content_default_mm" = "Chuyen tien tu Tien di dong";
+
+"title_moment_covid_vacxin" = "Tổng cộng số tiền đã chuyển vào Quỹ vắc-xin Covid-19 trên ViettelPay tính tới  %@ giờ %@ phút, ngày %@";
+"thank_you_very_much" = "Chân thành cảm ơn";
+"label_donate_covid_vacxin" = "đã chung tay ủng hộ Quỹ vắc-xin phòng chống Covid-19";
+
+"timeout" = "Giao dịch đang được thực hiện";
+"failed" = "Giao dịch thất bại";
+"fe_step_one" = "Bước 1: Tại màn hình xác nhận, lựa chọn thay đổi tài khoản thanh toán";
+"fe_step_two" = "Bước 2: Lựa chọn Ví trả sau Paynow. Xác nhận OTP và hoàn tất thanh toán";
+"prepaid_amount" = "Cước đóng trước";
+"debit_amount" = "Số tiền nợ cước";
+"prepaid_month" = "Số tháng thanh toán trước";
+"discount_cdt" = "Chiết khấu cước đóng trước";
+
+"you_have_not_enough_balance_to_process_transaction" = "Bạn không đủ số dư để thực hiện giao dịch";
+
+"tb05" = "Hiện tại tính năng nạp tiền cước Viettel trả trước đang tạm dừng nâng cấp. Quý khách vui lòng thực hiện lại sau. Trân trọng!";
+"tb06" = "Hiện tại tính năng gạch nợ cước Viettel trả sau đang tạm dừng nâng cấp. Quý khách vui lòng thực hiện lại sau. Trân trọng!";
+"tb07" = "Hiện tại tính năng nạp tiền tài khoản Tiền di động đang tạm dừng nâng cấp. Quý khách vui lòng thực hiện lại sau. Trân trọng!";
+
+"voucher_unavailable_title" = "Voucher không khả dụng";
+"voucher_unavailable_message" = "Ưu đãi bạn chọn chỉ áp dụng cho thanh toán tiền Điện. Vui lòng chọn ưu đãi khác nếu có hoặc liên hệ 18009000 để được hỗ trợ.";
+
+"insurance_fee" = "Phí bảo hiểm";
+"cashBack" = "Hoàn tiền";
+
+"cannot_charge_money" = "Không thể nạp tiền";
+"over_limit_charge_money" = "Vượt hạn mức nạp tiền";
+"warning_only_mm_less_than_consumption" = "Hạn mức giao dịch tối đa của tài khoản Tiền di động là %@. Để tiếp tục, bạn có thể giảm số tiền nạp hoặc kích hoạt ViettelPay để mở hạn mức cao hơn.";
+"warning_only_mm_more_than_consumption" = "Số dư Tiền di động của bạn đã vượt quá hạn mức %@. Để nạp thêm, bạn có thể chi tiêu số dư hiện tại hoặc kích hoạt ViettelPay để tăng hạn mức giao dịch.";
+"warning_both_MM_VTP_more_than_consumption" = "Số dư Tiền di động của bạn đã vượt quá hạn mức %@. Để nạp thêm tiền, xin vui lòng chi tiêu số dư hiện tại hoặc đổi tài khoản nạp tiền sang ViettelPay.";
+"warning_both_MM_VTP_less_than_consumption" = "Hạn mức giao dịch tối đa của tài khoản Tiền di động là %@. Để tiếp tục, bạn có thể giảm số tiền nạp hoặc đổi tài khoản nạp tiền sang ViettelPay.";
+"change_money_recharge" = "Thay đổi số tiền nạp";
+"active_viettelpay" = "Kích hoạt ViettelPay";
+"change_account" = "Đổi tài khoản ";
+
+"campaign" = "Ưu đãi";

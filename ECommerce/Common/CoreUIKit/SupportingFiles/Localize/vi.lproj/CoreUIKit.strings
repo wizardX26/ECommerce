@@ -1,0 +1,117 @@
+/* 
+  CoreUIKit.strings
+  CoreUIKit
+
+  Created by Natariannn on 11/11/20.
+  Copyright © 2020 ViettelPay App Team. All rights reserved.
+*/
+
+"list_receivers" = "Danh sách người nhận";
+"scan_qr_code" = "Quét mã";
+"qr_code_info" = "Thanh toán và thẻ cào";
+"payment_code" = "Mã trả tiền";
+"enter_store_code" = "Nhập mã cửa hàng";
+"use_image" = "Sử dụng ảnh";
+"set_auto_payment" = "Đặt thanh toán tự động";
+"reuse_transaction" = "Dùng lại giao dịch";
+"linked_account" = "Tài khoản liên kết";
+"number_of_linked_accounts" = "Có %ld tài khoản liên kết";
+"viettelpay_account" = "Tài khoản ViettelPay";
+"show_balance" = "Xem số dư";
+"hide_balance" = "Ẩn số dư";
+"show_detail" = "Xem chi tiết";
+"hide_detail" = "Ẩn chi tiết";
+"recharge" = "Nạp/chuyển tiền";
+"hunt_point" = "Săn điểm";
+"more_info" = "Tìm hiểu thêm";
+"active_now" = "Kích hoạt ngay";
+"use" = "Sử dụng";
+"use_now" = "Sử dụng ngay";
+"all" = "Tất cả";
+"free" = "Miễn phí";
+"share" = "Chia sẻ";
+"close" = "Đóng";
+"done" = "Xong";
+"save" = "Lưu";
+"delete" = "Xoá";
+"change" = "Thay đổi";
+"contacts" = "Danh bạ";
+"notice" = "Thông báo";
+"enter_pin_notice" = "Vui lòng nhập mật khẩu Viettel Money";
+"enter_otp_notice" = "Vui lòng nhập mã OTP";
+"processing_notice" = "Hệ thống đang xử lý\nVui lòng đợi trong giây lát";
+"transaction_failed" = "Giao dịch không thành công";
+"success" = "Thành công";
+"fail" = "Thất bại";
+"processing" = "Đang xử lý";
+"cancel" = "Huỷ bỏ";
+"unCheck" = "Bỏ chọn";
+"cancellation" = "Huỷ";
+"canceled" = "Đã hủy";
+"percent" = "%";
+"agree" = "Đồng ý";
+"balance" = "Số dư";
+"balance_not_enough" = "Số dư không đủ";
+"balance_not_enough_content" = "Vui lòng nạp thêm tiền để hoàn thành giao dịch";
+"card_number_not_supported" = "Số thẻ không được hỗ trợ";
+"card_number_not_supportedMoney" = "Hiện tại ViettelMoney chỉ hỗ trợ thẻ nội địa, vui lòng kiểm tra lại thông tin thẻ";
+"card_number_not_exist" = "Số thẻ ngân hàng không tồn tại";
+"budget_over_limit" = "Tài khoản vượt hạn mức";
+"budget_over_limit_recharge" = "Số dư vượt hạn mức chi tiêu";
+"budget_over_limit_content" = "Vui lòng đổi tài khoản thanh toán để hoàn thành giao dịch";
+"budget_over_limit_recharge_content" = "Số tiền vượt hạn mức %@ sẽ không thể chi tiêu trong tháng này.";
+"budget_over_limit_recharge_content_MM1" = "Số dư của bạn sẽ vượt hạn mức chi tiêu/tháng của tài khoản Tiền di động. Bạn vẫn muốn tiếp tục nạp tiền chứ?";
+"budget_over_limit_buy_voucher" = "Không đủ điểm Viettel ++";
+"budget_over_limit_buy_voucher_content" = "Thực hiện giao dịch hoặc làm nhiệm vụ để tích điểm Viettel++ ngay bạn nhé!";
+"budget_daily" = "Hạn mức ngày";
+"budget_enough" = "Hạn mức còn lại";
+"remaining_budget" = "Hạn mức còn lại %@";
+"budget_update" = "Nâng cấp hạn mức";
+"budget_view" = "Xem hạn mức";
+"budget_view_MM1" = "Tìm hiểu thêm";
+"continues" = "Tiếp tục";
+"charge_amount" = "Số tiền nạp";
+"month" = "Tháng %@";
+"budget_enough_mm1" = "Số dư hiện tại";
+"budget_enough_voucher" = "Điểm hiện tại";
+"charge_voucher_point" = "Điểm cần đổi";
+
+"change_source" = "Đổi tài khoản";
+
+"otp_verify" = "Xác thực OTP";
+"otp_place_holder" = "Nhập mã OTP";
+"otp_out_of_time" = "Mã OTP đã hết hiệu lực. Vui lòng bấm gửi lại OTP";
+
+"ignore" = "Bỏ qua";
+"confirm" = "Xác nhận";
+"resend" = "Gửi lại";
+"resendOTP" = "Gửi lại OTP";
+
+"transaction_money" = "Số tiền giao dịch";
+
+"accept_permission" = "Tôi cho phép";
+"permission_contact_title" = "Viettel Money cần truy cập danh bạ của bạn";
+"permission_camera_title" = "Viettel Money cần truy cập Máy ảnh của bạn";
+"permission_gallery_title" = "Viettel Money cần truy cập Thư viện ảnh của bạn";
+"permission_location_title" = "Viettel Money cần truy cập Vị trí của bạn";
+
+"permission_contact_des" = "Giúp bạn nhanh chóng tìm số điện thoại, tên bạn bè, người thân từ danh bạ";
+"permission_camera_des" = "Giúp bạn quét mã QR thẻ cào, thẻ liên kết và chụp ảnh đại diện";
+"permission_gallery_des" = "Giúp bạn sử dụng hình ảnh có sẵn để quét mã, thay ảnh đại diện";
+"permission_location_des" = "Giúp bạn dễ dàng tìm thấy các ưu đãi, điểm giao dịch Viettel quanh bạn";
+
+"label_telco_account" = "Tài khoản nhận";
+
+"button_fixed_label_default" = "Đồng ý với Điều khoản dịch vụ để bắt đầu đăng ký";
+"button_fixed_info_cell_title" = "Số tiền";
+"button_fixed_info_cell_value" = "Tất cả cước nợ";
+
+"swipe_pin_title" = "Ghim lại";
+"swipe_unpin_title" = "Bỏ ghim";
+"swipe_edit_title" = "Sửa";
+"swipe_delete_title" = "Xoá";
+"swipe_agree_title" = "Đồng ý";
+"swipe_reuse_title" = "Dùng lại";
+"swipe_detail_title" = "Chi tiết";
+"swipe_seen_title" = "Đã xem";
+"swipe_auto_payment_title" = "Thanh toán tự động";

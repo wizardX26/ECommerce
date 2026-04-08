@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Qz5-TO-PbW" customClass="CollectionDescripSectionHeader" customModule="MyKiot" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="79"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6D8-n2-Slf">
+                    <rect key="frame" x="0.0" y="0.0" width="397" height="79"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zun-mU-YoV">
+                            <rect key="frame" x="4" y="4" width="389" height="1"/>
+                            <viewLayoutGuide key="safeArea" id="IGG-3p-eAc"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="Z0d-7y-1EH"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jG-J9-xqc">
+                            <rect key="frame" x="4" y="12.999999999999998" width="54.666666666666664" height="26.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hh-Mi-RP3">
+                            <rect key="frame" x="4" y="39.333333333333336" width="31" height="14.333333333333336"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvg-Jd-tnm">
+                            <rect key="frame" x="373" y="29.666666666666671" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="RUE-Wc-lc0"/>
+                                <constraint firstAttribute="width" secondItem="fvg-Jd-tnm" secondAttribute="height" multiplier="1:1" id="fDu-IY-iY8"/>
+                            </constraints>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="chevron.right" catalog="system"/>
+                            <connections>
+                                <action selector="didTapChevronRightBtn:" destination="Qz5-TO-PbW" eventType="touchUpInside" id="YaV-cc-fPx"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="5jG-J9-xqc" firstAttribute="top" secondItem="zun-mU-YoV" secondAttribute="bottom" constant="8" id="05n-5c-MnC"/>
+                        <constraint firstItem="5jG-J9-xqc" firstAttribute="leading" secondItem="zun-mU-YoV" secondAttribute="leading" id="2xH-pv-O3a"/>
+                        <constraint firstItem="fvg-Jd-tnm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7Hh-Mi-RP3" secondAttribute="trailing" constant="16" id="G6S-Ia-zs9"/>
+                        <constraint firstItem="fvg-Jd-tnm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5jG-J9-xqc" secondAttribute="trailing" constant="16" id="K2Q-TZ-FQl"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="7Hh-Mi-RP3" secondAttribute="bottom" constant="4" id="NmO-v7-uYM"/>
+                        <constraint firstItem="fvg-Jd-tnm" firstAttribute="trailing" secondItem="zun-mU-YoV" secondAttribute="trailing" id="Qpr-xc-t7J"/>
+                        <constraint firstItem="7Hh-Mi-RP3" firstAttribute="leading" secondItem="5jG-J9-xqc" secondAttribute="leading" id="UMe-K0-QQ6"/>
+                        <constraint firstItem="fvg-Jd-tnm" firstAttribute="centerY" secondItem="6D8-n2-Slf" secondAttribute="centerY" id="e0j-Es-lcR"/>
+                        <constraint firstItem="7Hh-Mi-RP3" firstAttribute="top" secondItem="5jG-J9-xqc" secondAttribute="bottom" id="juX-03-Y0N"/>
+                        <constraint firstItem="zun-mU-YoV" firstAttribute="top" secondItem="6D8-n2-Slf" secondAttribute="top" constant="4" id="k7r-xJ-aSR"/>
+                        <constraint firstItem="zun-mU-YoV" firstAttribute="leading" secondItem="6D8-n2-Slf" secondAttribute="leading" constant="4" id="ros-3W-53z"/>
+                        <constraint firstItem="zun-mU-YoV" firstAttribute="centerX" secondItem="6D8-n2-Slf" secondAttribute="centerX" id="xUJ-5j-qe5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="8It-Z5-TGD"/>
+            <constraints>
+                <constraint firstItem="6D8-n2-Slf" firstAttribute="leading" secondItem="8It-Z5-TGD" secondAttribute="leading" id="2qb-p4-HSj"/>
+                <constraint firstItem="6D8-n2-Slf" firstAttribute="top" secondItem="Qz5-TO-PbW" secondAttribute="top" id="4FY-3S-qaL"/>
+                <constraint firstAttribute="bottom" secondItem="6D8-n2-Slf" secondAttribute="bottom" id="9Eg-VN-YdY"/>
+                <constraint firstItem="8It-Z5-TGD" firstAttribute="trailing" secondItem="6D8-n2-Slf" secondAttribute="trailing" id="Six-Ob-QWe"/>
+            </constraints>
+            <connections>
+                <outlet property="chevronRightBtn" destination="fvg-Jd-tnm" id="o3B-z0-5yW"/>
+                <outlet property="separatorDecorView" destination="zun-mU-YoV" id="5rw-1W-HAk"/>
+                <outlet property="subTitleLabel" destination="7Hh-Mi-RP3" id="fnc-7d-g1P"/>
+                <outlet property="titleLabel" destination="5jG-J9-xqc" id="MPl-gE-0Oe"/>
+            </connections>
+            <point key="canvasLocation" x="-373.28244274809157" y="-42.605633802816904"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

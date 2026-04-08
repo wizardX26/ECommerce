@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="Om8-3A-Cvm">
+            <objects>
+                <viewController storyboardIdentifier="CameraViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TRx-6Y-Up1" customClass="CameraViewController" customModule="ECommerce" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Txe-K4-DMI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d4h-nv-8VM">
+                                <rect key="frame" x="0.0" y="712" width="393" height="140"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBg-vI-PqF">
+                                        <rect key="frame" x="170.66666666666666" y="44" width="52" height="52"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="JBg-vI-PqF" secondAttribute="height" multiplier="1:1" id="8TN-OI-a5r"/>
+                                            <constraint firstAttribute="height" constant="52" id="Pp2-1B-W2y"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="captureButtonTapped:" destination="TRx-6Y-Up1" eventType="touchUpInside" id="8Cf-ny-i69"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWa-5t-3aV">
+                                        <rect key="frame" x="8" y="50.666666666666629" width="77" height="39"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Library"/>
+                                        <connections>
+                                            <action selector="libraryBtnTapped:" destination="TRx-6Y-Up1" eventType="touchUpInside" id="r3u-Xi-lRX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIg-e3-KSR">
+                                        <rect key="frame" x="335" y="53" width="50" height="34.333333333333343"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrow.trianglehead.2.clockwise.rotate.90" catalog="system"/>
+                                        <connections>
+                                            <action selector="rotateBtnTapped:" destination="TRx-6Y-Up1" eventType="touchUpInside" id="xpq-Wm-0do"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="bom-eB-plm"/>
+                                    <constraint firstItem="yWa-5t-3aV" firstAttribute="leading" secondItem="d4h-nv-8VM" secondAttribute="leading" constant="8" id="fBt-b4-B1Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="KIg-e3-KSR" secondAttribute="trailing" constant="8" id="fke-os-g6b"/>
+                                    <constraint firstItem="KIg-e3-KSR" firstAttribute="centerY" secondItem="d4h-nv-8VM" secondAttribute="centerY" id="nFg-GA-Lra"/>
+                                    <constraint firstItem="yWa-5t-3aV" firstAttribute="centerY" secondItem="d4h-nv-8VM" secondAttribute="centerY" id="q8E-GY-a9Z"/>
+                                    <constraint firstItem="JBg-vI-PqF" firstAttribute="centerY" secondItem="d4h-nv-8VM" secondAttribute="centerY" id="r0c-1M-jCt"/>
+                                    <constraint firstItem="JBg-vI-PqF" firstAttribute="centerX" secondItem="d4h-nv-8VM" secondAttribute="centerX" id="r4o-u8-FX9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JD5-fy-m6y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="d4h-nv-8VM" firstAttribute="leading" secondItem="JD5-fy-m6y" secondAttribute="leading" id="OJT-c6-IeB"/>
+                            <constraint firstItem="d4h-nv-8VM" firstAttribute="trailing" secondItem="JD5-fy-m6y" secondAttribute="trailing" id="YzA-RK-Ivq"/>
+                            <constraint firstAttribute="bottom" secondItem="d4h-nv-8VM" secondAttribute="bottom" id="geS-j6-Iyr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mke-Hg-SzZ"/>
+                    <connections>
+                        <outlet property="captureButton" destination="JBg-vI-PqF" id="XcW-hh-K5J"/>
+                        <outlet property="openLibrary" destination="yWa-5t-3aV" id="qCb-0Z-3rq"/>
+                        <outlet property="previewView" destination="Txe-K4-DMI" id="ecn-A9-mMm"/>
+                        <outlet property="rotateButton" destination="KIg-e3-KSR" id="e4g-WP-v8s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Hy-3P-XPW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.946564885496173" y="-753.52112676056345"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.trianglehead.2.clockwise.rotate.90" catalog="system" width="128" height="117"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

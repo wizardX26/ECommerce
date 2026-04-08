@@ -1,0 +1,189 @@
+/* 
+  Localizable.strings
+  ECommerce
+  English Localization
+
+  Created by wizard.os25 on 17/11/25.
+  
+*/
+
+/* App Name */
+"app_name" = "ECommerce";
+
+/* Common */
+"welcome" = "Welcome";
+"home" = "Home";
+"products" = "Products";
+"cart" = "Cart";
+"profile" = "Profile";
+"settings" = "Settings";
+"language" = "Language";
+
+/* Actions */
+"add_to_cart" = "Add to Cart";
+"buy_now" = "Buy Now";
+"checkout" = "Checkout";
+"login" = "Login";
+"sign_up" = "Sign Up";
+"logout" = "Logout";
+"save" = "Save";
+"cancel" = "Cancel";
+"delete" = "Delete";
+"ok" = "OK";
+"search" = "Search";
+"filter" = "Filter";
+"sort" = "Sort";
+
+/* Auth – Login */
+"welcome_back" = "Welcome Back";
+"sign_in_to_continue" = "Sign in to continue shopping";
+"phone_number" = "Phone Number";
+"password" = "Password";
+"dont_have_account" = "Don't have an account?";
+
+/* Auth – Sign Up */
+"create_account" = "Create Account";
+"sign_up_to_shop" = "Sign up to start shopping";
+"full_name" = "Full Name";
+"email" = "Email";
+
+/* Alerts / Common */
+"error" = "Error";
+"success" = "Success";
+"login_success" = "Login successful!";
+"sign_up_success" = "Registration successful!";
+
+/* Validation */
+"validation_fill_all" = "Please fill in all fields";
+"validation_valid_phone" = "Please enter a valid phone number";
+"validation_valid_email" = "Please enter a valid email address";
+"validation_password_min" = "Password must be at least 6 characters";
+
+/* Product */
+"price" = "Price";
+"description" = "Description";
+"item_count" = "%lld items";
+"no_items" = "No items";
+
+/* Messages */
+"welcome_message" = "Welcome, %@!";
+"error_loading" = "Error loading data";
+"total" = "Total";
+
+/* Search */
+"search_placeholder" = "Search..";
+"search_location" = "Search Location";
+"map" = "Map";
+"grocery" = "Grocery";
+"account" = "Account";
+"notification" = "Notification";
+
+/* Tab / Side Menu */
+"my_order" = "My Order";
+"browsing_history" = "Browsing History";
+"shipping_address" = "Shipping Address";
+"payment" = "Payment";
+"settings_and_privacy" = "Settings and Privacy";
+"help_center" = "Help Center";
+
+/* Screens */
+"add_new_address" = "Add a new address";
+"order_detail" = "Order Detail";
+"delivery" = "Delivery";
+"delivered" = "Delivered";
+"order_cancel" = "Cancel";
+"pending" = "Pending";
+"confirm_payment" = "Confirm Payment";
+"place_order" = "Place Order";
+"my_profile" = "My profile";
+"address" = "Address";
+"payment_card" = "Payment Card";
+"add_new_card" = "Add new card";
+"cancel_order" = "Cancel order";
+"product" = "Product";
+"order_summary" = "Order summary";
+"submit" = "Submit";
+"register" = "Register";
+"edit_profile" = "Edit profile";
+"splash" = "Splash";
+"change_password" = "Change password";
+"incomplete" = "Incomplete";
+"account_information" = "Account information";
+"business_information" = "Business information";
+"image_captured_success" = "Image captured successfully";
+
+/* Payment */
+"pay" = "Pay";
+"payment_completed_success" = "Payment completed successfully!";
+"please_select_payment_method" = "Please select a payment method";
+"failed_to_create_payment_method" = "Failed to create payment method";
+"failed_to_create_payment_intent" = "Failed to create payment intent";
+"payment_intent_id_not_found" = "Payment intent ID not found";
+"failed_to_confirm_payment" = "Failed to confirm payment";
+"payment_failed" = "Payment failed";
+"delete_card" = "Delete Card";
+"delete_card_confirm" = "Are you sure you want to delete this card?";
+"yes" = "Yes";
+"no" = "No";
+
+/* Address */
+"please_select_district_first" = "Please select a district first";
+"select_ward" = "Select Ward";
+"select_province" = "Select Province";
+"select_district" = "Select District";
+"select_country" = "Select Country";
+"address_line" = "Address Line";
+"address_type" = "Address Type";
+"set_as_default" = "Set as default address";
+"home" = "Home";
+"office" = "Other";
+
+/* Order Status Tabs */
+"order_status_pending" = "Pending";
+"order_status_processing" = "Processing";
+"order_status_confirmed" = "Confirmed";
+"order_status_cancel" = "Cancel";
+"order_status_delivery" = "Delivery";
+"order_status_delivered" = "Delivered";
+
+/* Progress Steps */
+"step_place_order" = "Place Order";
+"step_confirm_payment" = "Confirm Payment";
+"step_success" = "Success";
+
+/* Address Fields */
+"contact_person_name" = "Contact Person Name";
+"contact_person_number" = "Contact Person Number";
+"address_detail" = "Address Detail";
+"address_detail_placeholder" = "Enter address detail (e.g., 123 Phố Hàng Trống)";
+"country" = "Country";
+"province" = "Province";
+"district" = "District";
+"ward" = "Ward";
+"select_country" = "Select Country";
+"select_province" = "Select Province";
+"select_district" = "Select District";
+"select_ward" = "Select Ward";
+"set_as_default_shipping" = "Set as default shipping address";
+"controller_not_found" = "Controller not found";
+
+/* Popups / Notes */
+"note_to_seller" = "Note to the seller";
+
+/* Order Detail */
+"order_number" = "Order #%@";
+"quantity_label" = "Quantity: %@";
+"shipping_fee" = "Shipping Fee: %@";
+"payment_method" = "Payment Method: %@";
+"confirmed" = "Confirmed: %@";
+"order_note" = "Order Note: %@";
+
+/* Password */
+"please_fill_all_password_fields" = "Please fill in all password fields";
+"password_mismatch" = "New password and confirmation do not match";
+"current_password" = "Current Password";
+"new_password" = "New Password";
+"confirm_password" = "Confirm Password";
+
+/* Order Cells */
+"payment_label" = "Payment: %@";

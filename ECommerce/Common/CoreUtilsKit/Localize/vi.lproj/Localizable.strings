@@ -1,0 +1,158 @@
+/* 
+  Localizable.strings
+  ECommerce
+  Vietnamese Localization
+
+  Created by wizard.os25 on 17/11/25.
+  
+*/
+
+/* App Name */
+"app_name" = "Thương Mại Điện Tử";
+
+/* Common */
+"welcome" = "Chào mừng";
+"home" = "Trang chủ";
+"products" = "Sản phẩm";
+"cart" = "Giỏ hàng";
+"profile" = "Hồ sơ";
+"settings" = "Cài đặt";
+"language" = "Ngôn ngữ";
+
+/* Actions */
+"add_to_cart" = "Thêm vào giỏ";
+"buy_now" = "Mua ngay";
+"checkout" = "Thanh toán";
+"login" = "Đăng nhập";
+"logout" = "Đăng xuất";
+"save" = "Lưu";
+"cancel" = "Hủy";
+"delete" = "Xóa";
+"ok" = "Đồng ý";
+"search" = "Tìm kiếm";
+"filter" = "Lọc";
+"sort" = "Sắp xếp";
+
+/* Product */
+"price" = "Giá";
+"description" = "Mô tả";
+"item_count" = "%lld sản phẩm";
+"no_items" = "Không có sản phẩm";
+
+/* Messages */
+"welcome_message" = "Chào mừng, %@!";
+"error_loading" = "Lỗi tải dữ liệu";
+"total" = "Tổng cộng";
+
+"search_location" = "Tìm địa điểm";
+"map" = "Bản đồ";
+"grocery" = "Tạp hóa";
+"account" = "Tài khoản";
+"notification" = "Thông báo";
+"my_order" = "Đơn hàng của tôi";
+"browsing_history" = "Lịch sử duyệt";
+"shipping_address" = "Địa chỉ giao hàng";
+"payment" = "Thanh toán";
+"settings_and_privacy" = "Cài đặt và quyền riêng tư";
+"help_center" = "Trung tâm trợ giúp";
+"add_new_address" = "Thêm địa chỉ mới";
+"order_detail" = "Chi tiết đơn hàng";
+"delivery" = "Đang giao";
+"delivered" = "Đã giao";
+"order_cancel" = "Đã hủy";
+"pending" = "Chờ xử lý";
+"confirm_payment" = "Xác nhận thanh toán";
+"place_order" = "Đặt hàng";
+"my_profile" = "Hồ sơ của tôi";
+"address" = "Địa chỉ";
+"payment_card" = "Thẻ thanh toán";
+"add_new_card" = "Thêm thẻ mới";
+"cancel_order" = "Hủy đơn";
+"product" = "Sản phẩm";
+"order_summary" = "Tóm tắt đơn hàng";
+"submit" = "Gửi";
+"register" = "Đăng ký";
+"edit_profile" = "Chỉnh sửa hồ sơ";
+"splash" = "Khởi động";
+
+"change_password" = "Đổi mật khẩu";
+"incomplete" = "Chưa đầy đủ";
+"account_information" = "Thông tin tài khoản";
+"business_information" = "Thông tin doanh nghiệp";
+"image_captured_success" = "Chụp ảnh thành công";
+
+/* Payment */
+"pay" = "Thanh toán";
+"payment_completed_success" = "Thanh toán thành công!";
+"please_select_payment_method" = "Vui lòng chọn phương thức thanh toán";
+"failed_to_create_payment_method" = "Không thể tạo phương thức thanh toán";
+"failed_to_create_payment_intent" = "Không thể tạo payment intent";
+"payment_intent_id_not_found" = "Không tìm thấy payment intent ID";
+"failed_to_confirm_payment" = "Không thể xác nhận thanh toán";
+"payment_failed" = "Thanh toán thất bại";
+"delete_card" = "Xóa thẻ";
+"delete_card_confirm" = "Bạn có chắc chắn muốn xóa thẻ này?";
+"yes" = "Có";
+"no" = "Không";
+
+/* Address */
+"please_select_district_first" = "Vui lòng chọn quận/huyện trước";
+"select_ward" = "Chọn phường/xã";
+"select_province" = "Chọn tỉnh/thành phố";
+"select_district" = "Chọn quận/huyện";
+"select_country" = "Chọn quốc gia";
+"address_line" = "Địa chỉ";
+"address_type" = "Loại địa chỉ";
+"set_as_default" = "Đặt làm địa chỉ mặc định";
+"home" = "Nhà";
+"office" = "Khác";
+
+/* Order Status Tabs */
+"order_status_pending" = "Chờ xử lý";
+"order_status_processing" = "Đang xử lý";
+"order_status_confirmed" = "Đã xác nhận";
+"order_status_cancel" = "Đã hủy";
+"order_status_delivery" = "Đang giao";
+"order_status_delivered" = "Đã giao";
+
+/* Progress Steps */
+"step_place_order" = "Đặt hàng";
+"step_confirm_payment" = "Xác nhận thanh toán";
+"step_success" = "Thành công";
+
+/* Address Fields */
+"contact_person_name" = "Tên người liên hệ";
+"contact_person_number" = "Số điện thoại người liên hệ";
+"address_detail" = "Chi tiết địa chỉ";
+"address_detail_placeholder" = "Nhập chi tiết địa chỉ (ví dụ: 123 Phố Hàng Trống)";
+"country" = "Quốc gia";
+"province" = "Tỉnh/Thành phố";
+"district" = "Quận/Huyện";
+"ward" = "Phường/Xã";
+"select_country" = "Chọn quốc gia";
+"select_province" = "Chọn tỉnh/thành phố";
+"select_district" = "Chọn quận/huyện";
+"select_ward" = "Chọn phường/xã";
+"set_as_default_shipping" = "Đặt làm địa chỉ giao hàng mặc định";
+"controller_not_found" = "Không tìm thấy controller";
+
+/* Popups / Notes */
+"note_to_seller" = "Ghi chú cho người bán";
+
+/* Order Detail */
+"order_number" = "Đơn hàng #%@";
+"quantity_label" = "Số lượng: %@";
+"shipping_fee" = "Phí vận chuyển: %@";
+"payment_method" = "Phương thức thanh toán: %@";
+"confirmed" = "Xác nhận: %@";
+"order_note" = "Ghi chú đơn hàng: %@";
+
+/* Password */
+"please_fill_all_password_fields" = "Vui lòng điền đầy đủ các trường mật khẩu";
+"password_mismatch" = "Mật khẩu mới và xác nhận không khớp";
+"current_password" = "Mật khẩu hiện tại";
+"new_password" = "Mật khẩu mới";
+"confirm_password" = "Xác nhận mật khẩu";
+
+/* Order Cells */
+"payment_label" = "Thanh toán: %@";
