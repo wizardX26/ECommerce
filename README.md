@@ -10,11 +10,15 @@
 
 ### Tổng quan use case
 
-![Usecase tổng quát](DATN_materisl_client_ios/Usecase_tong_quat.png)
+<p align="center">
+  <img src="DATN_materisl_client_ios/Usecase_tong_quat.png" alt="Usecase tổng quát" width="75%" />
+</p>
 
 ### Activity diagram đặt hàng
 
-![Activity diagram đặt hàng](DATN_materisl_client_ios/activity_diagram_dat_hang.png)
+<p align="center">
+  <img src="DATN_materisl_client_ios/activity_diagram_dat_hang.png" alt="Activity diagram đặt hàng" width="75%" />
+</p>
 
 ## 2) Công nghệ sử dụng
 
@@ -39,9 +43,14 @@
 - **Stripe SDK** (`Stripe`, `StripePaymentSheet`, `StripePayments`) cho luồng thanh toán thẻ.
 - **LocalAuthentication** (`Face ID/Touch ID + passcode fallback`) để xác thực chủ sở hữu thiết bị trước khi thực hiện thanh toán.
 
-![Màn hình chọn phương thức thanh toán](DATN_materisl_client_ios/ECommerce_app_Payment_method.PNG)
-![Xác thực Face ID](DATN_materisl_client_ios/ECommerce_app_Verify_faceID.PNG)
-![Thanh toán thành công](DATN_materisl_client_ios/ECommerce_app_Pay_success.PNG)
+<p align="center">
+  <img src="DATN_materisl_client_ios/ECommerce_app_Payment_method.PNG" alt="Màn hình chọn phương thức thanh toán" width="48%" />
+  &nbsp;
+  <img src="DATN_materisl_client_ios/ECommerce_app_Verify_faceID.PNG" alt="Xác thực Face ID" width="48%" />
+</p>
+<p align="center">
+  <img src="DATN_materisl_client_ios/ECommerce_app_Pay_success.PNG" alt="Thanh toán thành công" width="48%" />
+</p>
 
 ### Bản đồ và định vị
 
@@ -51,7 +60,9 @@
 
 - **UserNotifications**: nhận Push Notification, xử lý khi app foreground/background/kill state và điều hướng theo loại thông báo.
 
-![Màn hình thông báo](DATN_materisl_client_ios/ECommerce_app_Notification.PNG)
+<p align="center">
+  <img src="DATN_materisl_client_ios/ECommerce_app_Notification.PNG" alt="Màn hình thông báo" width="45%" />
+</p>
 
 ## 3) Tech Skills
 
@@ -81,7 +92,9 @@
 - Có cấu trúc test iOS (`ECommerceTests`, `ECommerceUITests`).
 - Kiểm thử các luồng tương tác thực tế (ví dụ xác minh mở link email).
 
-![Kiểm thử email open link](DATN_materisl_client_ios/kiem_thu_email_open_link.PNG)
+<p align="center">
+  <img src="DATN_materisl_client_ios/kiem_thu_email_open_link.PNG" alt="Kiểm thử email open link" width="45%" />
+</p>
 
 ---
 
